@@ -1,0 +1,12 @@
+file_object = open("test.txt", "r+", encoding="utf-8")
+print("Ten cua File la: ", file_object.name)
+print("Che do mo: ", file_object.mode)
+print("----------------")
+# data = file_object.read()
+# print("ND cua file la:\n", data)
+
+line1= file_object.readline()
+line2 = file_object.readline()
+print("Dong 1: ", line1)
+print("Dong 2: ", line2)
+file_object.close()
