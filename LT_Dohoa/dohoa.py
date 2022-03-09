@@ -14,27 +14,27 @@
 # turtle.done()
 
 
-from turtle import *
-color('red', 'green')
-begin_fill()
-while True:
-    forward(150)
-    left(144)
-    if abs(pos()) < 1:
-        break
-end_fill()
-done()
+# from turtle import *
+# color('red', 'green')
+# begin_fill()
+# while True:
+#     forward(150)
+#     left(144)
+#     if abs(pos()) < 1:
+#         break
+# end_fill()
+# done()
 
 
 
-# import turtle
-# t = turtle.Pen()
-# turtle.bgcolor("black")
-# colors = ["red", "yellow", "blue", "green"]
-# for x in range(200):
-#     t.pencolor(colors[x%4])
-#     t.forward(x)
-#     t.left(91)
+import turtle
+t = turtle.Pen()
+turtle.bgcolor("black")
+colors = ["red", "yellow", "blue", "green"]
+for x in range(200):
+    t.pencolor(colors[x%4])
+    t.forward(x)
+    t.left(91)
 
 
 # from turtle import *
